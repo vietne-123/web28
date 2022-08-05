@@ -1,0 +1,34 @@
+.header{
+    background-color: blue;
+    box-sizing: 2000px 600px;
+
+}
+.absolute{
+    position: absolute;
+    
+}
+.relative{
+    position: relative;
+}
+.messenger{
+    border-radius: 50%;
+width: 100px;
+height: 100px;
+background-color: blue;
+position: fixed;
+bottom: 20px;
+right: 20px;
+
+}
+.flex{
+    display: flex;
+    gap:20px;
+}
+.mainmenu{
+    display: absolute;
+
+}
+.menu{
+    box-sizing: 1000px 1000px;
+    background-color: aqua;
+}

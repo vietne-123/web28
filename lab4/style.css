@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-anime {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.list-anime a {
+    width: calc((100% - 30px) / 4);
+}
+
+.anime-picture {
+    max-width: 100%;
+
+}
+.description{
+    text-decoration: none;
+}
+
+
+
+.truyen-tranh{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.information{
+    width: calc(60% - 5px);
+}
+.manga-thumbnail{
+    max-width: 100%;
+
+}
+.truyen-tranh a{
+    width: calc((100% - 30px) / 4);
+}
+.collection {
+    display: flex;
+    flex-wrap: wrap;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .col-1 {
+    flex-basis: 0 1 8.3333333%;
+  }
+  .col-2 {
+    flex: 0 1 16.66666667%;
+  }
+  .col-3 {
+    flex: 0 1 25%;
+  }
+  .col-4 {
+    flex: 0 1 33.333333333%;
+  }
+  .col-5 {
+    flex: 0 1 41.6666667%;
+  }
+  .col-6 {
+    flex: 0 1 50%;
+  }
+  .col-7 {
+    flex: 0 1 58.33333333%;
+  }
+  .col-8 {
+    flex: 0 1 66.666666666%;
+  }
+  .col-9 {
+    flex: 0 1 75%;
+  }
+  .col-10 {
+    flex: 0 1 83.333333333%;
+  }
+  .col-11 {
+    flex: 0 1 91.6666666666%;
+  }
+  .col-12 {
+    flex: 0 1 100%;
+  }
+  .row{
+      flex-wrap: wrap;
+      padding-left: -5px;
+      padding-right: -5px;
+  }
+  .row >*{
+      padding-left: 5px;
+  padding-right: 5px;
+  }
+  .absolute{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+  }
+.relative{
+    position: relative;
+
+}
+.playbutton{
+    width: 10px;
+height: 10px;
+}

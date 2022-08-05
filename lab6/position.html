@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+    <style>
+      .box {
+        width: 200px;
+        height: 200px;
+        color: white;
+      }
+      .by-red {
+        background-color: red;
+      }
+      .by-blue {
+        background-color: blue;
+      }
+      .relate {
+        position: relative;
+      }
+
+      .by-cyan {
+        background-color: cyan;
+      }
+      .absolute {
+        position: absolute;
+        height: unset;
+        width: unset;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(49, 6, 73, 0.932);
+      }
+      .by-orange {
+        background-color: orange;
+      }
+      .by-gray {
+        background-color: gray;
+      }
+      .by-pink {
+        background-color: pink;
+      }
+      .by-green {
+        background-color: green;
+      }
+      .by-bigger{
+        width: 800px;
+        height: 800px;
+      }
+      .static{
+        position: static;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box by-red">Static</div>
+    <div class="box by-blue">Static</div>
+    <div class="box by-red relate">Relative</div>
+    <div class="box by-cyan relate">Relative</div>
+    <div class="box by-gray"></div>
+    <div class="box by-orange by-bigger">
+      <div class="box by-green "></div>
+      <div class="box by-pink "></div>
+    </div>
+  </body>
+</html>
