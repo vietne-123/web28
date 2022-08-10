@@ -118,10 +118,10 @@
    */
   function calcTaxiFee(km) {
       if(km<=30){
-          return "10.000"+"11.000"*km
+          return 10.000+11.000*km
       }
       else if(km>=31){
-          return "10.000"+"9.500"*km
+          return 10.000+9.500*(30-km)+km*11.000
       }
   }
   
